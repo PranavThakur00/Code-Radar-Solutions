@@ -2,12 +2,15 @@
 int main() {
     int a;
     scanf("%d" ,&a);
-    if(a%400==0&&a%4==0&&a!=100)
+    if(a%400==0&&a%4==0)
     {
         printf("Leap Year");
     }
-    else{
+    else if(a%100!=0){
         printf("Not a Leap Year");
+    }
+    else{
+        print("anything");
     }
     return 0;
 }
