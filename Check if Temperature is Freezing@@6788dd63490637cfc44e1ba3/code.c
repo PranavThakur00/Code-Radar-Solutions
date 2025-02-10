@@ -8,8 +8,8 @@ int main() {
     else if(a<=0){
         printf("Freezing");
     }
-    else[
+    else{
         printf("anything");
-    ]
+}
     return 0;
 }
