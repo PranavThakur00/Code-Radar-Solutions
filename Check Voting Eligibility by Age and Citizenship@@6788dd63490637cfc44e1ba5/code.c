@@ -9,7 +9,7 @@ int main(){
         printf("Not Eligible");
     }
     else{
-        printf("nothing")
+        printf("nothing");
     }
     return 0;
 }
