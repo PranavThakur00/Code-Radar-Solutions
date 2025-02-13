@@ -26,7 +26,7 @@ int main() {
             printf("Sunday");
             break;
         default:
-            printf("wrong answer");
+            printf("Invalid");
     }
 
     return 0;
