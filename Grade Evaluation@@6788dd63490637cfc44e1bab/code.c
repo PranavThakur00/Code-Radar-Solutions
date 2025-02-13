@@ -5,7 +5,7 @@ int main(){
     if(a==A){
         prinf("Excellent");
         }
-    else if(a==B){
+        else if(a==B){
             printf("Good");
         }
         else if(a==C){
