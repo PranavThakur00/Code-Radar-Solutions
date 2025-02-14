@@ -13,9 +13,13 @@ int main() {
             days = 30;
             break;
         case 2:
-             days = 28;
+            if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+                days = 29;
+            } else {
+                days = 28;
             }
-            default;
+            break;
+        default:
             printf("Invalid month. Please enter a value between 1 and 12.\n");
             return 1;
     }
@@ -23,4 +27,3 @@ int main() {
     printf("%d", days);
     return 0;
 }
-
