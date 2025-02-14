@@ -1,5 +1,5 @@
 #include<stdio.h>
-int mainn(){
+int main(){
     char a;
     scanf("%c" ,&a);
     if(a==R){
