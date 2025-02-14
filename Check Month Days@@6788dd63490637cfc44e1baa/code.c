@@ -24,7 +24,7 @@ int main() {
             return 1;
     }
 
-    printf("Number of days: %d\n", days);
+    printf("%d", days);
     return 0;
 }
 
