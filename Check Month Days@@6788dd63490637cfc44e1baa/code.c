@@ -15,8 +15,7 @@ int main() {
         case 2:
              days = 28;
             }
-            break;
-        default:
+            default;
             printf("Invalid month. Please enter a value between 1 and 12.\n");
             return 1;
     }
